@@ -3,7 +3,7 @@
 
 @section('content')
     <h1>Quiz 管理 - 問題の追加</h1>
-    <form method="POST" action="">
+    <form method="POST" action="{{ route('quizzes.index') }}">
         @csrf
         <div class="mt-3 mb-5">
             <h2>問題</h2>
